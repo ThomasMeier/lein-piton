@@ -77,4 +77,5 @@
                   ~(:dbpass @piton-opts)
                   ~(first args)
                   ~@(rest args))
-                '(require 'piton.core))))
+                '(require 'piton.core))
+    "refresh" (make-piton-file)))
